@@ -11,6 +11,8 @@
 		40D3404227F4CB1B008FACD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3404127F4CB1B008FACD5 /* ContentView.swift */; };
 		40D3404427F4CB1E008FACD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D3404327F4CB1E008FACD5 /* Assets.xcassets */; };
 		40D3404727F4CB1E008FACD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D3404627F4CB1E008FACD5 /* Preview Assets.xcassets */; };
+		40D3404E27F4CCF7008FACD5 /* TrafficLightCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3404D27F4CCF7008FACD5 /* TrafficLightCircle.swift */; };
+		40D3405027F4D066008FACD5 /* SwitchColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D3404F27F4D066008FACD5 /* SwitchColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		40D3404127F4CB1B008FACD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40D3404327F4CB1E008FACD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40D3404627F4CB1E008FACD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40D3404D27F4CCF7008FACD5 /* TrafficLightCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightCircle.swift; sourceTree = "<group>"; };
+		40D3404F27F4D066008FACD5 /* SwitchColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				40D3403F27F4CB1B008FACD5 /* TrafficLightsSwiftUIApp.swift */,
 				40D3404127F4CB1B008FACD5 /* ContentView.swift */,
+				40D3404D27F4CCF7008FACD5 /* TrafficLightCircle.swift */,
+				40D3404F27F4D066008FACD5 /* SwitchColorButton.swift */,
 				40D3404327F4CB1E008FACD5 /* Assets.xcassets */,
 				40D3404527F4CB1E008FACD5 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				40D3404227F4CB1B008FACD5 /* ContentView.swift in Sources */,
 				40D3404027F4CB1B008FACD5 /* TrafficLightsSwiftUIApp.swift in Sources */,
+				40D3404E27F4CCF7008FACD5 /* TrafficLightCircle.swift in Sources */,
+				40D3405027F4D066008FACD5 /* SwitchColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +285,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,7 +295,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +315,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +325,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
